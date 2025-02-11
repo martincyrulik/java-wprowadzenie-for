@@ -24,5 +24,15 @@ public class DisplayNumbers {
                 System.out.println(i);
             }
         }
+
+        //Wyświetl od a do z
+        System.out.println("---------------Zadanie 3------------------------");
+        char a = 'a';
+        char z = 'z';
+//        System.out.println((int)a);
+//        System.out.println((int)z);
+        for (int i = 'a'; i <= 'z'; i++){
+            System.out.println((char)i);
+        }
     }
 }
