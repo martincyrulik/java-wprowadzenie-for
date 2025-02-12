@@ -34,5 +34,16 @@ public class DisplayNumbers {
         for (int i = 'a'; i <= 'z'; i++){
             System.out.println((char)i);
         }
+
+        //Wyświetl tablicę dwywymiarową
+        System.out.println("---------------Zadanie 4------------------------");
+        int[][] numbers = {{1,3,4},{1,1},{4,5,5,7,3},{5,1,1,1}};
+
+        for (int i = 0; i < numbers.length; i++){
+            for (int j = 0; j < numbers[i].length; j++){
+                System.out.print(numbers[i][j]);
+            }
+            System.out.println();
+        }
     }
 }
